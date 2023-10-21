@@ -1,4 +1,4 @@
-
+    //função de somar
     function somar(){
         let n1 = document.querySelector('.n1')
         let n2 = document.querySelector('.n2')
@@ -11,6 +11,7 @@
         document.querySelector('.res').innerHTML = `O resultado é <span class="span1">${res}<span>`
     }
 
+    //função de multiplicar
     function multiplicar(){
         let n1 = document.querySelector('.n1')
         let n2 = document.querySelector('.n2')
@@ -23,6 +24,7 @@
         document.querySelector('.res').innerHTML = `O resultado é <span class="span1">${res}<span>`
     }
     
+    //função de dividir
     function dividir(){
         let n1 = document.querySelector('.n1')
         let n2 = document.querySelector('.n2')
@@ -35,6 +37,7 @@
         document.querySelector('.res').innerHTML = `O resultado é <span class="span1">${res}<span>`
     }
 
+    //função de subtrair
     function subtrair(){
         let n1 = document.querySelector('.n1')
         let n2 = document.querySelector('.n2')
@@ -47,6 +50,7 @@
         document.querySelector('.res').innerHTML = `O resultado é <span class="span1">${res}<span>`
     }
 
+    //adicionando o DOMContentLoaded para poder carregar tudo certinho o codigo e criando a o evento click adicionando as funções a ele
     document.addEventListener("DOMContentLoaded", ()=> {
         document.querySelector(".but_somar").addEventListener('click',somar)
         document.querySelector(".but_multiplicar").addEventListener('click',multiplicar)
